@@ -1,0 +1,8 @@
+TabPages:
+-make left side links working 
+-click anywhere to close sorttab/cenatab
+ProductPage <-
+FrontPage: 
+-Links On Slider
+-Search
+-basket

@@ -1,0 +1,630 @@
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+
+body .FirstBox {
+  height: 190px;
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  -webkit-box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.4);
+          box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+body .FirstBox .FirstRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .FirstBox .FirstRow .Media {
+  padding-left: 50px;
+}
+
+body .FirstBox .FirstRow .Media i {
+  font-size: 60px;
+  padding-right: 20px;
+  color: black;
+}
+
+body .FirstBox .FirstRow .regLog {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 70px 170px 90px 70px;
+      grid-template-columns: 70px 170px 90px 70px;
+  padding-right: 20px;
+  margin-top: 20px;
+}
+
+body .FirstBox .FirstRow .regLog i {
+  font-size: 40px;
+  padding-right: 20px;
+}
+
+body .FirstBox .FirstRow .regLog button {
+  position: absolute;
+  border: 0px;
+  padding-bottom: 20px;
+  left: 95%;
+  background-color: white;
+}
+
+body .FirstBox .FirstRow .regLog input {
+  border: 0;
+  border-bottom: solid 1px #8f8f8f;
+  font-size: 20px;
+  width: 160px;
+}
+
+body .FirstBox .FirstRow .regLog input:focus {
+  outline-width: 0;
+  border-bottom: solid 1px black;
+}
+
+body .FirstBox .FirstRow .regLog .fa-solid.fa-basket-shopping {
+  padding-left: 20px;
+}
+
+body .FirstBox .FirstRow .tabs {
+  position: absolute;
+  display: -ms-inline-grid;
+  display: inline-grid;
+  -ms-grid-columns: 180px 180px 180px 180px;
+      grid-template-columns: 180px 180px 180px 180px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40%;
+  left: 29.3%;
+  bottom: 0px;
+  font-family: Arial;
+  word-spacing: 120px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+body .FirstBox .FirstRow .tabs button {
+  background-color: white;
+  border: 0;
+  cursor: pointer;
+  font-size: 25px;
+  font-family: Arial, Helvetica;
+  border: 2px solid transparent;
+}
+
+body .FirstBox .FirstRow .tabs button a {
+  text-decoration: none;
+  color: black;
+}
+
+body .FirstBox .FirstRow .tabs button:hover {
+  border-bottom: 2px solid black;
+}
+
+body .FirstBox .FirstRow .tabs #sale {
+  color: red;
+  height: 50px;
+  border: 2px solid transparent;
+}
+
+body .FirstBox .FirstRow .tabs #gadget {
+  height: 50px;
+}
+
+body .FirstBox .FirstRow .tabs #gaming {
+  height: 50px;
+}
+
+body .FirstBox .FirstRow .tabs #clothes {
+  height: 50px;
+}
+
+body .FirstBox .FirstRow .tabs #sale:hover {
+  border-bottom: 2px solid black;
+}
+
+body .FirstBox .FirstRow .Logo {
+  padding-left: 175px;
+}
+
+body .FirstBox .FirstRow .Logo img {
+  width: 90%;
+}
+
+body .FirstBox .profile {
+  position: absolute;
+  left: 86%;
+  top: 64%;
+  font-family: Arial;
+  display: none;
+  padding: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: white;
+  border: solid 1px black;
+  font-size: 25px;
+  padding-top: 0;
+}
+
+body .FirstBox .profile button {
+  font-size: 20px;
+  color: white;
+  border: 0;
+  padding: 10px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  background-color: black;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+body .FirstBox .profile p {
+  margin-bottom: 25px;
+  padding-top: 15px;
+}
+
+body .SecondBox {
+  padding-top: 190px;
+}
+
+body .SecondBox .clothesTab {
+  overflow: hidden;
+  display: none;
+}
+
+body .SecondBox .clothesTab .clothesRow {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 40px;
+  left: 29.3%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: white;
+  z-index: 10;
+  -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+          box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body .SecondBox .clothesTab .clothesRow p {
+  font-size: 25px;
+}
+
+body .SecondBox .clothesTab .clothesRow a {
+  font-size: 25px;
+  color: black;
+  text-decoration: none;
+  padding-top: 10px;
+}
+
+body .SecondBox .clothesTab .clothesRow a:hover {
+  text-decoration: underline;
+}
+
+body .SecondBox .gamingTab {
+  overflow: hidden;
+  display: none;
+}
+
+body .SecondBox .gamingTab .gamingRow {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 40px;
+  margin-left: 38.9%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: white;
+  z-index: 10;
+  -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+          box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body .SecondBox .gamingTab .gamingRow p {
+  font-size: 25px;
+}
+
+body .SecondBox .gamingTab .gamingRow a {
+  font-size: 25px;
+  color: black;
+  text-decoration: none;
+  padding-top: 10px;
+}
+
+body .SecondBox .gamingTab .gamingRow a:hover {
+  text-decoration: underline;
+}
+
+body .SecondBox .gadgetTab {
+  overflow: hidden;
+  display: none;
+}
+
+body .SecondBox .gadgetTab .gadgetRow {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 40px;
+  left: 48.3%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: white;
+  z-index: 10;
+  -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+          box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body .SecondBox .gadgetTab .gadgetRow p {
+  font-size: 25px;
+}
+
+body .SecondBox .gadgetTab .gadgetRow a {
+  font-size: 25px;
+  color: black;
+  text-decoration: none;
+  padding-top: 10px;
+}
+
+body .SecondBox .gadgetTab .gadgetRow a:hover {
+  text-decoration: underline;
+}
+
+body .SecondBox .saleTab {
+  overflow: hidden;
+  display: none;
+}
+
+body .SecondBox .saleTab .saleRow {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 40px;
+  left: 57.7%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: white;
+  z-index: 10;
+  -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+          box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body .SecondBox .saleTab .saleRow a {
+  font-size: 25px;
+  color: black;
+  text-decoration: none;
+  padding-top: 10px;
+}
+
+body .SecondBox .saleTab .saleRow a:hover {
+  text-decoration: underline;
+}
+
+body .SecondBox .twoHalfs {
+  background-color: #f0f0f0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-top: 5%;
+}
+
+body .SecondBox .twoHalfs .leftHalf {
+  padding-top: 25px;
+  width: 50%;
+  font-size: 20px;
+  margin-left: 10%;
+}
+
+body .SecondBox .twoHalfs .leftHalf :nth-child(1) {
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+  font-family: Arial;
+}
+
+body .SecondBox .twoHalfs .leftHalf .categories {
+  padding-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .SecondBox .twoHalfs .leftHalf .categories :nth-child(1) {
+  font-size: 20px;
+}
+
+body .SecondBox .twoHalfs .leftHalf .categories a {
+  padding-top: 20px;
+  text-decoration: none;
+  color: black;
+  font-family: Arial;
+}
+
+body .SecondBox .twoHalfs .leftHalf .categories a:hover {
+  text-decoration: underline;
+}
+
+body .SecondBox .twoHalfs .rightHalf .rightFirstRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 10%;
+}
+
+body .SecondBox .twoHalfs .rightHalf .rightFirstRow .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .SecondBox .twoHalfs .rightHalf .rightFirstRow .buttons button {
+  background-color: #f0f0f0;
+  border: 0;
+  font-size: 25px;
+  font-family: Arial;
+  cursor: pointer;
+}
+
+body .SecondBox .twoHalfs .rightHalf .rightFirstRow .buttons p {
+  font-size: 25px;
+  font-family: Arial;
+  padding-left: 590px;
+}
+
+body .SecondBox .twoHalfs .rightHalf .rightFirstRow .sorting {
+  position: absolute;
+  margin-top: 3%;
+}
+
+body .SecondBox .twoHalfs .rightHalf .rightFirstRow .sorting .sortByPrice {
+  position: absolute;
+  display: none;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 200px;
+  border: 1px solid black;
+  background-color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+body .SecondBox .twoHalfs .rightHalf .rightFirstRow .sorting .sortByPrice :nth-child(3) {
+  background-color: black;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 200px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-top: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 10px;
+  letter-spacing: 1px;
+  border: 0;
+  cursor: pointer;
+}
+
+body .SecondBox .twoHalfs .rightHalf .rightFirstRow .sorting .sortByPrice :nth-child(1),
+body .SecondBox .twoHalfs .rightHalf .rightFirstRow .sorting .sortByPrice :nth-child(2) {
+  border: 0;
+  background-color: white;
+  font-size: 23px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 5px;
+  width: 200px;
+  cursor: pointer;
+}
+
+body .SecondBox .twoHalfs .rightHalf .rightFirstRow .sorting .sortByRange {
+  position: absolute;
+  display: none;
+  margin-left: 140px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 220px;
+  border: 1px solid black;
+  background-color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+body .SecondBox .twoHalfs .rightHalf .rightFirstRow .sorting .sortByRange :nth-child(3) {
+  background-color: black;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 200px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-top: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 10px;
+  letter-spacing: 1px;
+  border: 0;
+  cursor: pointer;
+}
+
+body .SecondBox .twoHalfs .rightHalf .rightFirstRow .sorting .sortByRange :nth-child(1),
+body .SecondBox .twoHalfs .rightHalf .rightFirstRow .sorting .sortByRange :nth-child(2) {
+  margin-left: 10px;
+  border: 0;
+  border-bottom: solid 2px #8d8d8d;
+  opacity: 0.7;
+  font-size: 23px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 5px;
+  width: 200px;
+}
+
+body .SecondBox .twoHalfs .rightHalf .rightFirstRow .sorting .sortByRange :nth-child(1):hover,
+body .SecondBox .twoHalfs .rightHalf .rightFirstRow .sorting .sortByRange :nth-child(2):hover {
+  border-bottom: solid 2px black;
+}
+
+body .SecondBox .twoHalfs .rightSecondRow {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 25% 25% 25%;
+      grid-template-columns: 25% 25% 25%;
+  margin-left: 10%;
+}
+
+body .SecondBox .twoHalfs .rightSecondRow .item {
+  padding: 10px;
+}
+
+body .SecondBox .twoHalfs .rightSecondRow .item a {
+  text-decoration: none;
+  color: black;
+  font-family: Arial;
+  font-size: 19px;
+}
+
+body .SecondBox .twoHalfs .rightSecondRow .item a img {
+  width: 100%;
+  -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+          box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+  margin-bottom: 30px;
+}
+
+body .SecondBox .twoHalfs .rightSecondRow .item p {
+  font-size: 19px;
+  font-family: Arial;
+}
+
+.ThirdBox {
+  margin-top: 200px;
+  background-color: #f2f2f2;
+}
+
+.ThirdBox .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.ThirdBox .links .row {
+  padding-left: 50px;
+  padding-right: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.ThirdBox .links .row a {
+  padding-top: 20px;
+  font-family: Arial;
+  text-decoration: none;
+  color: black;
+  opacity: 0.7;
+}
+
+.ThirdBox .links .row p {
+  font-size: 25px;
+  font-family: Arial;
+  opacity: 0.7;
+  font-weight: bold;
+}
+
+.ThirdBox .payment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.ThirdBox .payment #payment {
+  margin-top: 50px;
+  width: 60%;
+  margin-bottom: 50px;
+}
+/*# sourceMappingURL=SaleTabPage.css.map */

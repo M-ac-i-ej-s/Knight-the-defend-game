@@ -46,7 +46,7 @@ webdriver.ActionChains(driver).key_down(Keys.ENTER).perform()
 time.sleep(4)
 if grupa_czy_osoba == "person":
     for i in range(6):
-        webdriver.ActionChains(driver).key_down(Keys.TAB).perform()j
+        webdriver.ActionChains(driver).key_down(Keys.TAB).perform()
 while True:
     webdriver.ActionChains(driver).send_keys(wiadomosc).perform()
     webdriver.ActionChains(driver).key_down(Keys.ENTER).perform()
